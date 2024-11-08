@@ -5,4 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "anusha"
+        run:
+        #!/bin/bash
+           ls
+           pwd
+         
+            
+             
