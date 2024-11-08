@@ -1,14 +1,18 @@
-name: hello-world
-on: push
+name: Bash Script
+on:
+  push
+
 jobs:
-  my-job:
+  bash-script:
     runs-on: ubuntu-latest
+
     steps:
-      - name: my-step
-        run:
-        #!/bin/bash
-           ls
-           pwd
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Bash script
+        run: bash bash.sh
+
          
             
              
