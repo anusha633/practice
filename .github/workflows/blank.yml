@@ -10,7 +10,7 @@ jobs:
   deploy:
     name: Job 2
     needs: my-job
-    uses: ./ .github/workflows/anusha.yml 
+    uses: ./ .github/workflows/anusha.sh
 
    
 
