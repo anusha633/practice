@@ -6,6 +6,12 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello, World!" 
+
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: main step
+        run: echo "anusha"
  
 
    
