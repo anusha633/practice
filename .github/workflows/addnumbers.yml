@@ -3,7 +3,7 @@ name: Add Numbers
 on: [push]
 
 jobs:
-  print command:
+  print:
     runs-on: ubuntu-latest
 
     steps:
@@ -11,5 +11,5 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run print command
-      run: print "Hello World!"
+      run: echo "Hello World""
         
