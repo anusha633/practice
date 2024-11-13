@@ -9,7 +9,7 @@ jobs:
 
   deploy:
     needs: build
-    uses: ./ .github/workflows.anusha.sh
+    uses: ./ .github/workflows/addnumbers.yml
           
  
 
