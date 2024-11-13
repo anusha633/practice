@@ -1,12 +1,2 @@
-name: Add Numbers
 
-on: [push]
-
-jobs:
-  print:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Run print command
-      run: echo "anusha"
         
