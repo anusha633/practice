@@ -8,5 +8,5 @@ jobs:
 
     steps:
     - name: Run print command
-      run: echo "Anusha"
+      run: echo "anusha"
         
