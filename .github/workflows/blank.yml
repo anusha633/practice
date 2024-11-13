@@ -1,5 +1,5 @@
 name: example-workflow
-on: push
+on: workflow_dispatch
 jobs:
   production-deploy:
     runs-on: ubuntu-latest
